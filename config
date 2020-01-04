@@ -251,4 +251,9 @@ input 2:7:SynPS/2_Synaptics_TouchPad {
 	tap enabled
 }
 
+# touchpoint config
+input 2:10:TPPS/2_Elan_TrackPoint {
+	pointer_accel 0.6
+}
+
 include /etc/sway/config.d/*
