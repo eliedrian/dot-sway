@@ -257,3 +257,5 @@ input 2:10:TPPS/2_Elan_TrackPoint {
 }
 
 include /etc/sway/config.d/*
+
+exec python ~/.config/sway/inactive-windows-transparency.py
